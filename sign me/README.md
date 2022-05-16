@@ -84,6 +84,8 @@ chú ý msg do mình chọn nên h sẽ tính được, vậy x được tính b
 
 nhưng chú ý, g và p - 1 phải nguyên tố cùng nhau mới tính được nghịch đảo, tuy nhiên chúng ta k cần quá lo lắng vì g được sinh ngẫu nhiên và ta thử factor p - 1 thì thấy chỉ có ước nguyên tố nhỏ là 2 nên khi g được sinh ngẫu nhiên thì xác xuất tính được là cao và chúng ta chỉ việc thử khi nào ra flag là được (thực tế mình khá đen nên sau 2, 3 lần ms được :v)
 
+[full code](https://github.com/vnc1106/HCMUS-CTF-2022/blob/main/sign%20me/sol.py)
+
 **`Flag: HCMUS-CTF{B4se64_15_1nt3r3stin9}`**
 
 P/s: theo mình thì bài này không khó và mặt ý tưởng, mình chỉ cần mất tầm 10-15 phút để nháp, nhưng khi code thì lại dính bug quên encode base64  nhiều chỗ dẫn đến tính sai và mất nhiều thời gian để fix nó :((
